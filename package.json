@@ -1,7 +1,7 @@
 {
   "name": "ts-cli-starter",
   "version": "1.0.0",
-  "description": "Some project description",
+  "description": "A starter template for writing CLI apps with Typescript",
   "main": "index.ts",
   "scripts": {
     "build": "tsc --project tsconfig.json",

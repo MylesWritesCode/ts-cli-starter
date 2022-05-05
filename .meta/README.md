@@ -1,39 +1,43 @@
 <div id="top"></div>
 
 <!-- VARIABLES TO GLOBAL SEARCH + REPLACE
-- ts-cli-starter                                   // repo_name
-- Typescript CLI Starter                           // project_title
-- A starter template for a Typescript CLI program  // project_description
-- MylesWritesCode                                  // github_username
-- MylesCodesEmoji                                  // twitter_handle
-- myles-berueda                                    // linkedin_username
-- me@themapletree.io                               // email
+- github_username
+- repo_name
+- twitter_handle
+- linkedin_username
+- email
+- project_title
+- project_description
 -->
 
-<!-- [![Forks][forks-shield]][forks-url] -->
-<!-- [![Stargazers][stars-shield]][stars-url] -->
-<!-- [![Issues][issues-shield]][issues-url] -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Twitter][twitter-shield]][twitter-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MylesWritesCode/ts-cli-starter">
-    <img src=".meta/logo.png" alt="Logo">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="./logo.png" alt="Logo">
   </a>
 
-<h3 align="center">Typescript CLI Starter</h3>
+<h3 align="center">project_title</h3>
 
   <p align="center">
-    A starter template for a Typescript CLI program
+    project_description
     <br />
-    <a href="https://github.com/MylesWritesCode/ts-cli-starter"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/MylesWritesCode/ts-cli-starter">View Demo</a>
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
-    <a href="https://github.com/MylesWritesCode/ts-cli-starter/issues">Report Bug</a>
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MylesWritesCode/ts-cli-starter/issues">Request Feature</a>
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
 
@@ -69,15 +73,23 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is your basic Typescript CLI starter kit. Most of the README isn't going to make
-sense until I figure out exactly what and how I want the project to be built. In
-the meantime, feel free to use this as-is.
+This is a longer product description. No argument here. Good news, everyone!
+There's a report on TV with some very bad news! Oh Leela! You're the only person
+I could turn to; you're the only person who ever loved me. It doesn't look so
+shiny to me.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-- [Clap](https://github.com/clap-rs/clap)
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [Vue.js](https://vuejs.org/)
+- [Angular](https://angular.io/)
+- [Svelte](https://svelte.dev/)
+- [Laravel](https://laravel.com)
+- [Bootstrap](https://getbootstrap.com)
+- [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,10 +97,12 @@ the meantime, feel free to use this as-is.
 
 ## Getting Started
 
-Using this template is pretty easy - just take a look at the prerequisites and
-installation steps below.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
 
 - [Node](https://nodejs.org/en/)
 - [Typescript](https://rust-lang.org)
@@ -106,10 +120,10 @@ installation steps below.
 
    ```
    # with https
-   git clone https://github.com/MylesWritesCode/ts-cli-starter.git
+   git clone https://github.com/github_username/repo_name.git
 
    # or ssh
-   git clone git@github.com:MylesWritesCode/ts-cli-starter.git
+   git clone git@github.com:github_username/repo_name.git
    ```
 
 2. Remove the `.git` directory
@@ -154,21 +168,6 @@ installation steps below.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-This repo is meant to be used as a template for Typescript CLI programs. Metadata
-files will be within the `.meta` folder. In there, you'll find places to put
-your project logo and screenshot. Importantly, you'll find a fresh README.md
-that you can use to overwrite this one.
-
-Happy hacking!
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
@@ -178,15 +177,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/MylesWritesCode/ts-cli-starter/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
-
-[![Contributors][contributors-shield]][contributors-url]
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -205,8 +202,6 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-[![MIT License][license-shield]][license-url]
-
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -215,38 +210,36 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-**Myles Berueda**
+Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
-[![Twitter][twitter-shield]][twitter-url]
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 
-<!-- ## Acknowledgments -->
+## Acknowledgments
 
-<!-- - []() -->
-<!-- - []() -->
-<!-- - []() -->
+- []()
+- []()
+- []()
 
-<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/MylesWritesCode/ts-cli-starter.svg?style=for-the-badge
-[contributors-url]: https://github.com/MylesWritesCode/ts-cli-starter/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/MylesWritesCode/ts-cli-starter.svg?style=for-the-badge
-[forks-url]: https://github.com/MylesWritesCode/ts-cli-starter/network/members
-[stars-shield]: https://img.shields.io/github/stars/MylesWritesCode/ts-cli-starter.svg?style=for-the-badge
-[stars-url]: https://github.com/MylesWritesCode/ts-cli-starter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MylesWritesCode/ts-cli-starter.svg?style=for-the-badge
-[issues-url]: https://github.com/MylesWritesCode/ts-cli-starter/issues
-[license-shield]: https://img.shields.io/github/license/MylesWritesCode/ts-cli-starter.svg?style=for-the-badge
-[license-url]: https://github.com/MylesWritesCode/ts-cli-starter/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/myles-berueda
-[twitter-shield]: https://img.shields.io/twitter/follow/MylesCodesEmoji?style=for-the-badge
-[twitter-url]: https://twitter.com/MylesCodesEmoji
-[product-screenshot]: .meta/screenshot.png
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[twitter-shield]: https://img.shields.io/twitter/follow/twitter_handle?style=for-the-badge
+[twitter-url]: https://twitter.com/twitter_handle
+[product-screenshot]: ./screenshot.png
