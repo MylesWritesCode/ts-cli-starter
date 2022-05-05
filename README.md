@@ -73,10 +73,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a longer product description. No argument here. Good news, everyone!
-There's a report on TV with some very bad news! Oh Leela! You're the only person
-I could turn to; you're the only person who ever loved me. It doesn't look so
-shiny to me.
+This is your basic Typescript CLI starter kit. Most of the README isn't going to 
+make sense until I figure out exactly what and how I want the project to be 
+built. In the meantime, feel free to use this as-is.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -97,17 +96,15 @@ shiny to me.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Using this template is pretty easy - just take a look at the prerequisites and
+installation steps below.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/) (optional)
+  > This is what I use for my personal projects. The template will probably work
+  > with `npm`, but who's (whose?, that seems wrong) to say.
 
 ### Installation
 
@@ -134,6 +131,36 @@ This is an example of how to list things you need to use the software and how to
    # delete `.git`
    rm -rf .git
    ```
+
+3. Re-init git
+   ```
+   git init
+   ```
+4. Create a repo on your preferred git hosting site (e.g. GitHub)
+5. Do your install
+   ```
+   yarn set version stable
+   yarn install
+   ```
+6. Add your new remote to your local git instance
+   ```
+   git remote add origin <your url>
+   git add .
+   git commit -m 'init'
+   git push origin <your branch>
+   ```
+7. Start hacking away
+
+### Simpler, since you're here
+
+> _alternatively, the "I have a Github account" way_
+
+1. [Github docs][github-template-docs] telling you to click the button above,
+   labeled "Use this template".
+2. ???
+3. Profit by hacking away after you clone your new repo.
+
+[github-template-docs]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
 3. Re-init git
    ```
