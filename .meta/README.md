@@ -10,27 +10,26 @@
 - project_description
 -->
 
-<!-- [![Contributors][contributors-shield]][contributors-url] -->
-<!-- [![Forks][forks-shield]][forks-url] -->
-<!-- [![Stargazers][stars-shield]][stars-url] -->
-<!-- [![Issues][issues-shield]][issues-url] -->
-<!-- [![MIT License][license-shield]][license-url] -->
-<!-- [![Twitter][twitter-shield]][twitter-url] -->
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
-
-Check out the other branches to see examples on how I'm using this template.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![Twitter][twitter-shield]][twitter-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src=".meta/logo.png" alt="Logo">
+    <img src="./logo.png" alt="Logo">
   </a>
 
-<h3 align="center">Rust CLI Starter</h3>
+<h3 align="center">project_title</h3>
 
   <p align="center">
-    <p>Add a short description of your project here.</p>
+    project_description
+    <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -74,15 +73,23 @@ Check out the other branches to see examples on how I'm using this template.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is your basic Rust CLI starter kit. Most of the README isn't going to make
-sense until I figure out exactly what and how I want the project to be built. In
-the meantime, feel free to use this as-is.
+This is a longer product description. No argument here. Good news, everyone! 
+There's a report on TV with some very bad news! Oh Leela! You're the only person
+I could turn to; you're the only person who ever loved me. It doesn't look so 
+shiny to me.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-- [Clap](https://github.com/clap-rs/clap)
+- [Next.js](https://nextjs.org/)
+- [React.js](https://reactjs.org/)
+- [Vue.js](https://vuejs.org/)
+- [Angular](https://angular.io/)
+- [Svelte](https://svelte.dev/)
+- [Laravel](https://laravel.com)
+- [Bootstrap](https://getbootstrap.com)
+- [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,63 +97,33 @@ the meantime, feel free to use this as-is.
 
 ## Getting Started
 
-Using this template is pretty easy - just take a look at the prerequisites and
-installation steps below.
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- [Rust](https://rust-lang.org)
+This is an example of how to list things you need to use the software and how to install them.
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
 ### Installation
 
-### Most brute-force way to use this template
-
-> _This'll get you up and running fairly quickly_
-
-1. Clone the repo
-
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
    ```
-   # with https
-   git clone https://github.com/MylesWritesCode/rust-cli-starter.git
-
-   # or ssh
-   git clone git@github.com:MylesWritesCode/rust-cli-starter.git
+3. Install NPM packages
+   ```sh
+   npm install
    ```
-
-2. Remove the `.git` directory
-
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = "ENTER YOUR API";
    ```
-   # cd into the cloned directory
-   cd rust-cli-starter
-
-   # delete `.git`
-   rm -rf .git
-   ```
-
-3. Re-init git
-   ```
-   git init
-   ```
-4. Create a repo on your preferred git hosting site (e.g. GitHub)
-5. Add your new remote to your local git instance
-   ```
-   git remote add origin <your url>
-   git add .
-   git commit -m 'init'
-   git push origin <your branch>
-   ```
-6. Start hacking away
-
-### Simpler, since you're here
-
-> _alternatively, the "I have a Github account" way_
-
-1. [Github docs][github-template-docs] telling you to click the button above,
-   labeled "Use this template".
-2. ???
-3. Profit by hacking away after you clone your new repo.
-
-[github-template-docs]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -219,7 +196,6 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -229,9 +205,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [twitter-shield]: https://img.shields.io/twitter/follow/twitter_handle?style=for-the-badge
 [twitter-url]: https://twitter.com/twitter_handle
-[product-screenshot]: .meta/screenshot.png
+[product-screenshot]: ./screenshot.png
