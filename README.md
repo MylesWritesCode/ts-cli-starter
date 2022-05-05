@@ -102,10 +102,6 @@ installation steps below.
 
 > _This'll get you up and running fairly quickly_
 
-### Most brute-force way to use this template
-
-> _This'll get you up and running fairly quickly_
-
 1. Clone the repo
 
    ```
