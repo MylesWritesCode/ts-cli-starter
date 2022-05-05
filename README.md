@@ -1,27 +1,29 @@
 <div id="top"></div>
 
 <!-- VARIABLES TO GLOBAL SEARCH + REPLACE
-- github_username
 - repo_name
-- twitter_handle
-- linkedin_username
-- email
 - project_title
 - project_description
+
+- MylesWritesCode     // github_username
+- MylesCodesEmoji     // twitter_handle
+- myles-berueda       // linkedin_username
+- me@themapletree.io  // email
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+<!-- [![Forks][forks-shield]][forks-url] -->
+<!-- [![Stargazers][stars-shield]][stars-url] -->
+<!-- [![Issues][issues-shield]][issues-url] -->
+<!-- [![MIT License][license-shield]][license-url] -->
+
 [![Twitter][twitter-shield]][twitter-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/MylesWritesCode/repo_name">
     <img src="https://github.com/MylesWritesCode/markdown-templates/blob/master/images/readme-template.png" alt="Logo">
   </a>
 
@@ -30,14 +32,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MylesWritesCode/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/MylesWritesCode/repo_name">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/MylesWritesCode/repo_name/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/MylesWritesCode/repo_name/issues">Request Feature</a>
   </p>
 </div>
 
@@ -73,23 +75,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is a longer product description. No argument here. Good news, everyone! 
-There's a report on TV with some very bad news! Oh Leela! You're the only person
-I could turn to; you're the only person who ever loved me. It doesn't look so 
-shiny to me.
+This is your basic Rust CLI starter kit. Most of the README isn't going to make
+sense until I figure out exactly what and how I want the project to be built. In
+the meantime, feel free to use this as-is.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Angular](https://angular.io/)
-- [Svelte](https://svelte.dev/)
-- [Laravel](https://laravel.com)
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+- [Clap](https://nextjs.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -97,33 +91,71 @@ shiny to me.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Using this template is pretty easy - just take a look at the prerequisites and
+installation steps below.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/) (optional)
+  > This is what I use for my personal projects. The template will probably work
+  > with `npm`, but who's (whose?, that seems wrong) to say.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
+### Most brute-force way to use this template
+
+> _This'll get you up and running fairly quickly_
+
+1. Clone the repo
+
    ```
-3. Install NPM packages
-   ```sh
-   npm install
+   # with https
+   git clone https://github.com/MylesWritesCode/ts-cli-starter.git
+
+   # or ssh
+   git clone git@github.com:MylesWritesCode/ts-cli-starter.git
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+
+2. Remove the `.git` directory
+
    ```
+   # cd into the cloned directory
+   cd ts-cli-starter
+
+   # delete `.git`
+   rm -rf .git
+   ```
+
+3. Re-init git
+   ```
+   git init
+   ```
+4. Create a repo on your preferred git hosting site (e.g. GitHub)
+5. Do your install
+   ```
+   yarn set version stable
+   yarn install
+   ```
+6. Add your new remote to your local git instance
+   ```
+   git remote add origin <your url>
+   git add .
+   git commit -m 'init'
+   git push origin <your branch>
+   ```
+7. Start hacking away
+
+### Simpler, since you're here
+
+> _alternatively, the "I have a Github account" way_
+
+1. [Github docs][github-template-docs] telling you to click the button above,
+   labeled "Use this template".
+2. ???
+3. Profit by hacking away after you clone your new repo.
+
+[github-template-docs]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -146,7 +178,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/MylesWritesCode/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,9 +211,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Myles Berueda - [@MylesCodesEmoji](https://twitter.com/MylesCodesEmoji) - me@themapletree.io
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/MylesWritesCode/repo_name](https://github.com/MylesWritesCode/repo_name)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,18 +228,19 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE
+
+[contributors-shield]: https://img.shields.io/github/contributors/MylesWritesCode/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/MylesWritesCode/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MylesWritesCode/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/MylesWritesCode/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/MylesWritesCode/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/MylesWritesCode/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MylesWritesCode/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/MylesWritesCode/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/MylesWritesCode/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/MylesWritesCode/repo_name/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[twitter-shield]: https://img.shields.io/twitter/follow/twitter_handle?style=for-the-badge
-[twitter-url]: https://twitter.com/twitter_handle
+[linkedin-url]: https://linkedin.com/in/myles-berueda
+[twitter-shield]: https://img.shields.io/twitter/follow/MylesCodesEmoji?style=for-the-badge
+[twitter-url]: https://twitter.com/MylesCodesEmoji
 [product-screenshot]: https://github.com/MylesWritesCode/markdown-templates/blob/master/images/readme-template-screenshot.png
