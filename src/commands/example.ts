@@ -7,7 +7,9 @@ export const exampleCommand = () => {
 };
 
 export const exampleWithArgsCommand = () => {
-  return createCommand("example-with-args [args]").action((args) => {
-    console.log("Running example-with-args command with args:", args);
-  });
+  return createCommand("with-args")
+    .arguments("[args]")
+    .action((args) => {
+      console.log("Running example-with-args command with args:", args);
+    });
 };

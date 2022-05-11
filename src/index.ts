@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { Command } from "commander";
 
-import { exampleCommand, exampleWithArgsCommand } from "@/commands/example";
+import { exampleCommand, exampleWithArgsCommand } from "./commands/example";
 
 dotenv.config();
 
@@ -11,6 +11,8 @@ function main() {
   program
     .addCommand(exampleCommand())
     .addCommand(exampleWithArgsCommand())
+
+  program.parse(process.argv);
 }
 
 main();
